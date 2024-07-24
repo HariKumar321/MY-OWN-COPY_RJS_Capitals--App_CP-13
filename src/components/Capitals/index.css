@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+  height: 100%;
+  width: 320px;
+  padding: 18px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.select-conatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.lists-container {
+  border: 2px solid grey;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  color: #323f4b;
+  width: 130px;
+}
+
+.capital-info {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #1e293b;
+  margin-left: 10px;
+  width: 160px;
+}
+
+.country {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e293b;
+}
